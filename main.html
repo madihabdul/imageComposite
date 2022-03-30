@@ -1,8 +1,8 @@
 <doctype html>
-<!-- Copyright 2020, Cem Yuksel, University of Utah -->
 <html>
 <head>
 <title>Image Composite Site</title>
+<!-- Copyright 2020, Cem Yuksel, University of Utah -->
 <script type="text/javascript" id="includedscript" src="project1.js"></script>
 <script type="text/javascript">
 document.addEventListener("keydown", keyDownTextField, false);
@@ -341,6 +341,7 @@ html {
 	background-color: white;
 	color: black;
 }
+
 </style>
 </head>
 <body>
@@ -351,6 +352,7 @@ html {
 		<input type="range" min="0" max="100" value="100" id="opac" onchange="opacChange(this)" disabled="true"/>
 		<div id="layers" ondrop="layerDrop()" ondragover="layerDragOver()"></div>
 	</div>
+	
 </div>
 </body>
 </html>
